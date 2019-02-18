@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.716945">
+<testcase classname="Login Feature" name="Login with invalid credentials" time="15.716945">
+<system-out><![CDATA[Given User has to be in log in page.........................................passed
+When Try log in by invalid "mnaque72@gmail.com" and "Love143$"..............passed
+Then Unable to log in.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

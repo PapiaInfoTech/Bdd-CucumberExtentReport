@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6616452418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-feature;login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 125631016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 236522056,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to be in log in page",
+            "match": {
+              "location": "InvalidLogIn.user_has_to_be_in_log_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8738276636,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Try log in by invalid \"mnaque72@gmail.com\" and \"Love143$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mnaque72@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "Love143$",
+                  "offset": 48
+                }
+              ],
+              "location": "InvalidLogIn.try_log_in_by_invalid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62740,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Unable to log in",
+            "match": {
+              "location": "InvalidLogIn.unable_to_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/Paru/Desktop/BDD/CitiProject/features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
